@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://www.philipb.dev">
-    <img src="./preview.jpg">
+    <img src="./preview.png">
   </a>
 </p>
 
