@@ -73,8 +73,6 @@ const Summary = () => {
               height: "400px",
               width: "400px",
               "border-radius": "15rem",
-              "moz-border-radius": "15rem",
-              "webkit-border-radius": "15rem",
               border: "solid 2px #fff",
             }}
           />
@@ -97,6 +95,7 @@ const RightFlex = styled.div`
 
   @media (max-width: 850px) {
     width: 100%;
+    margin-right: 0;
   }
 `
 
@@ -120,7 +119,7 @@ const FlexContainer = styled.div`
   margin-top: 6rem;
   margin-bottom: 5rem;
 
-  @media (max-width: 850px) {
+  @media screen and (max-width: 850px) {
     flex-direction: column-reverse;
     text-align: center;
     margin-bottom: 5rem;
