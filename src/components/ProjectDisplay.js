@@ -122,7 +122,7 @@ const SingleProjectDiv = styled.div`
   @media (max-width: 850px) {
     width: 90%;
     height: 90%;
-    min-height: 100vh;
+    padding: 2rem;
   }
 `
 const ProjectDiv = styled.div`
