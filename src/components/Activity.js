@@ -29,8 +29,8 @@ const Flex = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+  // padding-top: 2.5rem;
+  // padding-bottom: 2.5rem;
   text-align: center;
 `
 
