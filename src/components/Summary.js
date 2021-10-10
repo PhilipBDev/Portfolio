@@ -102,6 +102,7 @@ const LeftFlex = styled(RightFlex)`
   @media (max-width: 850px) {
     width: 100%;
     margin-top: 1rem;
+    margin-right: 0;
   }
 `
 
@@ -127,6 +128,10 @@ const IconContainer = styled.div`
   padding: 1rem;
   background-color: #f6f6f6;
   border-radius: 2rem;
+
+  @media (max-width: 850px) {
+    padding: 0;
+  }
 `
 
 const IconStyle = styled.div`

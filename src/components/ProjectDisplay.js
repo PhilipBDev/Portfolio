@@ -122,6 +122,11 @@ const SingleProjectDiv = styled.div`
   margin-bottom: 2em;
   text-align: center;
   min-height: 90vh;
+
+  @media (max-width: 850px) {
+    width: 90%;
+    height: 90%;
+  }
 `
 const ProjectDiv = styled.div`
   display: grid;
