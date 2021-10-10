@@ -32,7 +32,7 @@ const Nav = styled.nav`
   height: 2rem;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem 2rem;
+  // padding: 1.5rem 2rem;
   margin-bottom: 1rem;
 `
 
@@ -52,7 +52,7 @@ const NavItem = styled.li`
   list-style: none;
   align-items: center;
   justify-content: center;
-  padding: 18px 10px;
+  // padding: 18px 10px;
 `
 
 const NavLink = styled(AnchorLink)`

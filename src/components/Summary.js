@@ -65,7 +65,7 @@ const Summary = () => {
         </IconContainer>
       </LeftFlex>
       <RightFlex>
-        <span>
+        <ImgContainer>
           <StaticImage
             src="../images/philip-brown.jpg"
             alt="picture of me"
@@ -76,7 +76,7 @@ const Summary = () => {
               border: "solid 2px #fff",
             }}
           />
-        </span>
+        </ImgContainer>
       </RightFlex>
     </FlexContainer>
   )
@@ -119,6 +119,9 @@ const FlexContainer = styled.div`
     text-align: center;
     margin-bottom: 5rem;
   }
+`
+const ImgContainer = styled.div`
+  boreder-radius: 15rem;
 `
 
 const IconContainer = styled.div`
