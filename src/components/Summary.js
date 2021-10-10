@@ -123,6 +123,7 @@ const FlexContainer = styled.div`
 const ImgContainer = styled.div`
   position: relative;
   z-index: 0;
+  border-radius: 50%;
 `
 
 const IconContainer = styled.div`

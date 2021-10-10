@@ -17,6 +17,7 @@ html,body {
 
     @media (max-width: 850px) {
       background-image: none;
+      
     }
   }
   
@@ -29,6 +30,10 @@ body {
 
 *{
   // border: 1px solid red;
+
+  @media (max-width: 850px) {
+    border-radius: 0;
+  }
 }
 `
 
