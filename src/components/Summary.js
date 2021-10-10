@@ -73,6 +73,8 @@ const Summary = () => {
               height: "400px",
               width: "400px",
               "border-radius": "15rem",
+              "moz-border-radius": "15rem",
+              "webkit-border-radius": "15rem",
               border: "solid 2px #fff",
             }}
           />

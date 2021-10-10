@@ -22,7 +22,7 @@ html,body {
 body {
     margin: 0;
     font-family: Nunito, Verdana, Helvetica, sans-serif;
-    max-width: 100%;
+   
 }
 `
 
