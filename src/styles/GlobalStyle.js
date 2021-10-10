@@ -13,8 +13,6 @@ html,body {
     font-size: 16px;
     background-color: #6a93cb;
     background-image: linear-gradient(315deg, #6a93cb 0%, #a4bfef 74%);
-    // background-color: #b1bfd8;
-    // background-image: linear-gradient(315deg, #b1bfd8 0%, #6782b4 84%);
   }
   
 body {

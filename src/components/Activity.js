@@ -41,7 +41,7 @@ const ImageContainer = styled.img`
   width: 950px;
   height: auto;
 
-  @media (max-width: 800px) {
+  @media (max-width: 850px) {
     width: 600px;
   }
 `

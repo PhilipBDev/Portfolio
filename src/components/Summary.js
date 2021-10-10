@@ -99,7 +99,7 @@ const LeftFlex = styled(RightFlex)`
   flex-wrap: wrap;
   margin-right: 10rem;
 
-  @media (max-width: 800px) {
+  @media (max-width: 850px) {
     width: 100%;
     margin-top: 1rem;
   }
@@ -113,7 +113,7 @@ const FlexContainer = styled.div`
   margin-top: 6rem;
   margin-bottom: 5rem;
 
-  @media (max-width: 800px) {
+  @media (max-width: 850px) {
     flex-direction: column-reverse;
     text-align: center;
     margin-bottom: 5rem;

@@ -18,7 +18,6 @@ export default function Home() {
       <ProjectDisplay />
       <Activity />
       <Contact />
-
       <Footer />
     </PageStyle>
   )
