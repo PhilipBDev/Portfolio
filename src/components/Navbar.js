@@ -29,14 +29,11 @@ export default Navbar
 
 const Nav = styled.nav`
   display: flex;
-  // background-color: #e2ac6b;
-  // background-image: linear-gradient(315deg, #e2ac6b 0%, #cba36d 74%);
   height: 2rem;
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 2rem;
   margin-bottom: 1rem;
-  // border-bottom: 2px solid #fff;
 `
 
 const Title = styled.h2`

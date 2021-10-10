@@ -92,23 +92,12 @@ const RightFlex = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  @media (max-width: 850px) {
-    width: 100%;
-    margin-right: 0;
-  }
 `
 
 const LeftFlex = styled(RightFlex)`
   width: 40%;
   flex-wrap: wrap;
   margin-right: 10rem;
-
-  @media (max-width: 850px) {
-    width: 100%;
-    margin-top: 1rem;
-    margin-right: 0;
-  }
 `
 
 const FlexContainer = styled.div`
@@ -119,7 +108,7 @@ const FlexContainer = styled.div`
   margin-top: 6rem;
   margin-bottom: 5rem;
 
-  @media screen and (max-width: 850px) {
+  @media (max-width: 850px) {
     flex-direction: column-reverse;
     text-align: center;
     margin-bottom: 5rem;
@@ -133,10 +122,6 @@ const IconContainer = styled.div`
   padding: 1rem;
   background-color: #f6f6f6;
   border-radius: 2rem;
-
-  @media (max-width: 850px) {
-    padding: 0;
-  }
 `
 
 const IconStyle = styled.div`

@@ -92,10 +92,6 @@ const ProjectContainer = styled.div`
   padding-top: 3rem;
   align-items: center;
   justify-content: center;
-  @media (max-width: 850px) {
-    width: auto;
-    padding: 0;
-  }
 `
 
 const ProjectImage = styled(GatsbyImage)`
