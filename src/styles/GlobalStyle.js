@@ -24,7 +24,7 @@ body {
     margin: 0;
     font-family: Nunito, Verdana, Helvetica, sans-serif;
     display: flex;
-    flex-direction: column;
+
 }
 
 *{
