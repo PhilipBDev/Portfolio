@@ -122,9 +122,6 @@ const SingleProjectDiv = styled.div`
   @media (max-width: 850px) {
     width: 90%;
     height: 90%;
-  }
-
-  @media (max-width: 500px) {
     min-height: 100vh;
   }
 `
