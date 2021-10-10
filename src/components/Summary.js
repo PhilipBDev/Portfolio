@@ -121,7 +121,7 @@ const FlexContainer = styled.div`
   }
 `
 const ImgContainer = styled.div`
-  boreder-radius: 15rem;
+  border-radius: 15rem;
 `
 
 const IconContainer = styled.div`
