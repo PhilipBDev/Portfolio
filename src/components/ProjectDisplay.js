@@ -86,12 +86,8 @@ export default ProjectDisplay
 //~~~~~~~~~~~~~~~~~~~
 
 const ProjectContainer = styled.div`
-  display: flex;
-  flex-direction: column;
   text-align: center;
   padding-top: 3rem;
-  align-items: center;
-  justify-content: center;
 `
 
 const ProjectImage = styled(GatsbyImage)`
@@ -126,7 +122,6 @@ const SingleProjectDiv = styled.div`
   @media (max-width: 850px) {
     width: 90%;
     height: 90%;
-    min-height: 100vh;
   }
 `
 const ProjectDiv = styled.div`
