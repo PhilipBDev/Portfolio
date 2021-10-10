@@ -90,6 +90,8 @@ const ProjectContainer = styled.div`
   flex-direction: column;
   text-align: center;
   padding-top: 3rem;
+  align-items: center;
+  justify-content: center;
 `
 
 const ProjectImage = styled(GatsbyImage)`

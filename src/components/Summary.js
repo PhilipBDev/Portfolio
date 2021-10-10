@@ -109,7 +109,7 @@ const FlexContainer = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: row;
-  align-content: center;
+  align-items: center;
   margin-top: 6rem;
   margin-bottom: 5rem;
 
