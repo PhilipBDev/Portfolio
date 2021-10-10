@@ -92,6 +92,10 @@ const RightFlex = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  @media (max-width: 850px) {
+    width: 100%;
+  }
 `
 
 const LeftFlex = styled(RightFlex)`
