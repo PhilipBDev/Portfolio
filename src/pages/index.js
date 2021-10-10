@@ -13,7 +13,7 @@ import { Helmet } from "react-helmet"
 
 export default function Home() {
   return (
-    <>
+    <SiteContainer>
       <Helmet>
         <html lang="en" />
         <title>PhilipBDev</title>
@@ -28,8 +28,16 @@ export default function Home() {
         <Contact />
         <Footer />
       </PageStyle>
-    </>
+    </SiteContainer>
   )
 }
 
 const PageStyle = styled.div``
+
+const SiteContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+`

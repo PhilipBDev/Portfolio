@@ -15,8 +15,7 @@ html,body {
     background-image: linear-gradient(315deg, #6a93cb 0%, #a4bfef 74%);
 
     @media (max-width: 850px) {
-      width: 100%;
-      background-image: none;
+            background-image: none;
     }
   }
   
