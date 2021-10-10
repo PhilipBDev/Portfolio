@@ -121,9 +121,8 @@ const FlexContainer = styled.div`
   }
 `
 const ImgContainer = styled.div`
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
+  position: relative;
+  z-index: 0;
 `
 
 const IconContainer = styled.div`
