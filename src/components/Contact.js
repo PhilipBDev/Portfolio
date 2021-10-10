@@ -63,7 +63,7 @@ const IconContainer = styled.div`
   margin-top: 1rem;
 
   @media (max-width: 850px) {
-    width: 60%;
+    width: 70%;
   }
 `
 

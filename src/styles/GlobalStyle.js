@@ -13,6 +13,10 @@ html,body {
     font-size: 16px;
     background-color: #6a93cb;
     background-image: linear-gradient(315deg, #6a93cb 0%, #a4bfef 74%);
+
+    @media (max-width: 850px) {
+      background-image: none;
+    }
   }
   
 body {

@@ -128,7 +128,8 @@ const ProjectDiv = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
   max-height: 80%;
-  @media (max-width: 800px) {
+
+  @media (max-width: 850px) {
     grid-template-columns: 1fr;
   }
 `
