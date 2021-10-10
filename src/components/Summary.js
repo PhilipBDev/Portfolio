@@ -72,7 +72,7 @@ const Summary = () => {
             style={{
               height: "400px",
               width: "400px",
-              "border-radius": "15rem",
+              "border-radius": "50%",
               border: "solid 2px #fff",
             }}
           />
@@ -121,7 +121,9 @@ const FlexContainer = styled.div`
   }
 `
 const ImgContainer = styled.div`
-  border-radius: 15rem;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
 `
 
 const IconContainer = styled.div`

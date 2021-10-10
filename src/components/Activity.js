@@ -42,7 +42,7 @@ const ImageContainer = styled.img`
   height: auto;
 
   @media (max-width: 850px) {
-    width: 450px;
+    width: 500px;
   }
 `
 const Title = styled.h2`
