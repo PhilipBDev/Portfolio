@@ -9,17 +9,26 @@ import Contact from "../components/Contact"
 import Activity from "../components/Activity"
 import Footer from "../components/Footer"
 
+import { Helmet } from "react-helmet"
+
 export default function Home() {
   return (
-    <PageStyle>
-      <GlobalStyle />
-      <Navbar />
-      <Summary />
-      <ProjectDisplay />
-      <Activity />
-      <Contact />
-      <Footer />
-    </PageStyle>
+    <>
+      <Helmet>
+        <html lang="en" />
+        <title>PhilipBDev</title>
+        <meta name="Philip Brown's Portfolio" />
+      </Helmet>
+      <PageStyle>
+        <GlobalStyle />
+        <Navbar />
+        <Summary />
+        <ProjectDisplay />
+        <Activity />
+        <Contact />
+        <Footer />
+      </PageStyle>
+    </>
   )
 }
 
