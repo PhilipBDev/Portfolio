@@ -94,6 +94,8 @@ const ProjectContainer = styled.div`
   justify-content: center;
   @media (max-width: 850px) {
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 `
 
