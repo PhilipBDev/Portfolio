@@ -74,6 +74,7 @@ const Summary = () => {
               width: "400px",
               "border-radius": "50%",
               border: "solid 2px #fff",
+              overflow: "hidden",
             }}
           />
         </ImgContainer>
@@ -123,7 +124,6 @@ const FlexContainer = styled.div`
 const ImgContainer = styled.div`
   position: relative;
   z-index: 0;
-  border-radius: 50%;
 `
 
 const IconContainer = styled.div`
