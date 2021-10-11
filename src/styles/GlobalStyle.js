@@ -13,7 +13,7 @@ html,body {
     font-size: 16px;
     background-color: #a4bfef;
     background-image: linear-gradient(315deg, #6a93cb 0%, #a4bfef 74%);
-    width: 100%;
+  
 
     @media (max-width: 850px) {
       background-image: none;
@@ -25,7 +25,7 @@ body {
     margin: 0;
     font-family: Nunito, Verdana, Helvetica, sans-serif;
     display: flex;
-
+    max-width: 100%;
 }
 
 *{
