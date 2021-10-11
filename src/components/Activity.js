@@ -39,7 +39,7 @@ const ImageContainer = styled.img`
   background: #f2f7ff;
   cursor: pointer;
   width: 950px;
-  height: auto;
+  height: 100%;
 
   @media (max-width: 850px) {
     width: 500px;
