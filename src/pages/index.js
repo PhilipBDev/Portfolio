@@ -17,7 +17,10 @@ export default function Home() {
       <Helmet>
         <html lang="en" />
         <title>PhilipBDev</title>
-        <meta name="Philip Brown's Portfolio" />
+        <meta
+          name="Philip Brown's Portfolio"
+          content="width=device-width, initial-scale=0, maximum-scale=1"
+        />
       </Helmet>
       <PageStyle>
         <GlobalStyle />
