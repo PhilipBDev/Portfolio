@@ -17,10 +17,6 @@ export default function Home() {
       <Helmet>
         <html lang="en" />
         <title>PhilipBDev</title>
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1"
-        ></meta>
       </Helmet>
       <PageStyle>
         <GlobalStyle />

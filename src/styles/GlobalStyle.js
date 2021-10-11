@@ -29,7 +29,7 @@ body {
 }
 
 *{
-  // border: 1px solid red;
+  border: 1px solid red;
 
   @media (max-width: 850px) {
     border-radius: 0;
