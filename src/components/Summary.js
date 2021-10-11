@@ -73,8 +73,8 @@ const Summary = () => {
               height: "400px",
               width: "400px",
               "border-radius": "50%",
+              "-webkit-border-radius": "50",
               border: "solid 2px #fff",
-              overflow: "hidden",
             }}
           />
         </ImgContainer>
