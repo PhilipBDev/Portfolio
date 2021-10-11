@@ -68,7 +68,7 @@ const Summary = () => {
         <ImgContainer>
           <StaticImage
             src="../images/philip-brown.jpg"
-            alt="picture of me"
+            alt="Picture of me"
             style={{
               height: "400px",
               width: "400px",
