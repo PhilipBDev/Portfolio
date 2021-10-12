@@ -26,7 +26,8 @@ const Summary = () => {
           wife and cats!
         </Text>
         <Text>
-          View my resume and connect with me on{" "}
+          <LinkedText href="https://www.philipb.dev">View my resume</LinkedText>{" "}
+          and connect with me on{" "}
           <LinkedText href="https://www.linkedin.com/in/philip-brown-83bb131ab/">
             LinkedIn
           </LinkedText>
