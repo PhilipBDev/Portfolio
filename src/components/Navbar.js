@@ -56,7 +56,7 @@ const NavItem = styled.li`
 `
 
 const NavLink = styled(AnchorLink)`
-  text-decoration: underline;
+  text-decoration: none;
   color: #fff;
   display: flex;
   align-items: center;
