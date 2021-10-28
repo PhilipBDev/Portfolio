@@ -29,7 +29,7 @@ const Summary = () => {
         <Text>
           <LinkedText href="http://philiprbrown.com">View my resume</LinkedText>{" "}
           and connect with me on{" "}
-          <LinkedText href="https://www.linkedin.com/in/philip-brown-83bb131ab/">
+          <LinkedText href="https://www.linkedin.com/in/philiprbrown/">
             LinkedIn
           </LinkedText>
           !
