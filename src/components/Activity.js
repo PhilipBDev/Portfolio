@@ -36,7 +36,7 @@ const Flex = styled.div`
 
 const ImageContainer = styled.img`
   border: 1px solid #fff;
-  background: #f2f7ff;
+
   cursor: pointer;
   width: 950px;
   height: 100%;

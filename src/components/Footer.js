@@ -17,7 +17,7 @@ export default Footer
 
 const Flex = styled.footer`
   display: flex;
-  color: #fff;
+  color: #000;
   flex-direction: column;
   align-items: center;
   justify-content: center;

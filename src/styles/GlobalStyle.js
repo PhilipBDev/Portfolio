@@ -9,10 +9,10 @@ const GlobalStyle = createGlobalStyle`
 html,body {
     min-height: 100vh;
     padding: 0;
-    color: #fff;
+    color: #000;
     font-size: 16px;
-    background-color: #a4bfef;
-    background-image: linear-gradient(315deg, #6a93cb 0%, #a4bfef 74%);
+    background-color: #fff;
+    // background-image: linear-gradient(315deg, #6a93cb 0%, #a4bfef 74%);
     max-width: 100%;
 
     @media (max-width: 850px) {

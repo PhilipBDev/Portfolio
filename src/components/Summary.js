@@ -27,12 +27,10 @@ const Summary = () => {
           wife and cats!
         </Text>
         <Text>
-          <LinkedText href="http://philiprbrown.com">View my resume</LinkedText>{" "}
-          and connect with me on{" "}
-          <LinkedText href="https://www.linkedin.com/in/philiprbrown/">
+          <Resume href="http://philiprbrown.com">Resume</Resume>
+          <LinkedIn href="https://www.linkedin.com/in/philiprbrown/">
             LinkedIn
-          </LinkedText>
-          !
+          </LinkedIn>
         </Text>
         <Skills>Skills</Skills>
         <IconContainer>
@@ -80,12 +78,8 @@ const Summary = () => {
             src="../images/philip-brown.jpg"
             alt="Picture of me"
             style={{
-              height: "400px",
-              width: "400px",
-              "border-radius": "50%",
-              "-webkit-border-radius": "50%",
-              "-moz-border-radius": "50%",
-              border: "solid 2px #fff",
+              height: "600px",
+              width: "500px",
             }}
           />
         </ImgContainer>
@@ -121,20 +115,17 @@ const LeftFlex = styled(RightFlex)`
 const FlexContainer = styled.div`
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column-reverse;
   align-items: center;
   margin-top: 6rem;
   margin-bottom: 5rem;
 
-  @media (max-width: 1500px) {
-    flex-direction: column-reverse;
-    text-align: center;
-    margin-bottom: 5rem;
+  @media (min-width: 768px) {
+    flex-direction: row;
   }
 `
 const ImgContainer = styled.div`
-  position: relative;
-  z-index: 0;
+  padding-left: 5rem;
 `
 
 const IconContainer = styled.div`
@@ -201,10 +192,23 @@ const Text = styled.p`
   font-size: 24px;
   text-align: center;
 `
-const LinkedText = styled.a`
-  text-decoration: underline;
-  color: #fff;
+
+const Resume = styled.button`
+  text-decoration: none;
+  background-color: #fff;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-weight: 500;
+  font-size: 20px;
   &:hover {
-    color: #8c6445;
+    color: #fff;
+    background-color: #a9a9a9;
+    cursor: pointer;
   }
+`
+
+const LinkedIn = styled(Resume)`
+  margin-left: 1rem;
 `
