@@ -5,7 +5,8 @@
 import { createGlobalStyle } from "styled-components"
 
 const GlobalStyle = createGlobalStyle`
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 html,body {
     min-height: 100vh;
     padding: 0;
@@ -20,7 +21,7 @@ html,body {
   
 body {
     margin: 0;
-    font-family: Nunito, Verdana, Helvetica, sans-serif;
+    font-family: Montserrat, Verdana, Helvetica, sans-serif;
     display: flex;
 }
 
