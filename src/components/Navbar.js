@@ -34,6 +34,9 @@ const Nav = styled.nav`
   align-items: center;
   padding: 1.5rem 2rem;
   margin-bottom: 1rem;
+  background-image: linear-gradient(#2a9df4, #187bcd);
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
 `
 
 const Title = styled.h2`
@@ -63,6 +66,6 @@ const NavLink = styled(AnchorLink)`
   font-size: 24px;
   font-weight: bold;
   &:hover {
-    color: #8c6445;
+    color: #fff;
   }
 `
