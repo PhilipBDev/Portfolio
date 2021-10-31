@@ -27,9 +27,13 @@ const Summary = () => {
           wife and cats!
         </Text>
         <Text>
-          <Resume href="http://philiprbrown.com">Resume</Resume>
-          <LinkedIn href="https://www.linkedin.com/in/philiprbrown/">
-            LinkedIn
+          <Resume>
+            <Link href="http://philiprbrown.com">Resume</Link>
+          </Resume>
+          <LinkedIn>
+            <Link href="https://www.linkedin.com/in/philiprbrown/">
+              LinkedIn
+            </Link>
           </LinkedIn>
         </Text>
         <Skills>Skills</Skills>
@@ -190,6 +194,11 @@ const Skills = styled.h1`
 const Text = styled.p`
   font-size: 24px;
   text-align: center;
+`
+
+const Link = styled.a`
+  text-decoration: none;
+  color: #000;
 `
 
 const Resume = styled.button`

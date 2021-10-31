@@ -63,11 +63,17 @@ const ProjectDisplay = () => {
               <ProjectDescription>{description}</ProjectDescription>
               <ProjectDescription>{tools}</ProjectDescription>
               <p>
-                <Demo href={demo} alt="demo">
-                  demo
+                <Demo>
+                  {" "}
+                  <Link href={demo} alt="demo">
+                    demo
+                  </Link>
                 </Demo>
-                <GitHub href={github} alt="GitHub">
-                  github
+                <GitHub>
+                  {" "}
+                  <Link href={github} alt="GitHub">
+                    github
+                  </Link>
                 </GitHub>
               </p>
             </SingleProjectDiv>
@@ -158,6 +164,11 @@ const Demo = styled.button`
     background-color: #a9a9a9;
     cursor: pointer;
   }
+`
+
+const Link = styled.a`
+  text-decoration: none;
+  color: #000;
 `
 
 const GitHub = styled(Demo)`
