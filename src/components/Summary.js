@@ -107,11 +107,11 @@ const RightFlex = styled.div`
 const LeftFlex = styled(RightFlex)`
   flex-wrap: wrap;
 
-  // @media (max-width: 850px) {
-  //   width: 100%;
-  //   margin-top: 1rem;
-  //   margin-right: 0;
-  // }
+  @media (max-width: 850px) {
+    width: 100%;
+    margin-top: 1rem;
+    margin-right: 0;
+  }
 `
 
 const FlexContainer = styled.div`
