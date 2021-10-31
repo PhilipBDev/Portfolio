@@ -9,9 +9,8 @@ const GlobalStyle = createGlobalStyle`
 html,body {
     min-height: 100vh;
     padding: 0;
-    color: #fff;
     font-size: 16px;
-    max-width: 100%;
+    width: 100%;
 
     // @media (max-width: 850px) {
     //   background-image: none;

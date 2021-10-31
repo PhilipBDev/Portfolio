@@ -101,15 +101,13 @@ const RightFlex = styled.div`
 `
 
 const LeftFlex = styled(RightFlex)`
-  width: 40%;
   flex-wrap: wrap;
-  margin-right: 12rem;
 
-  @media (max-width: 850px) {
-    width: 100%;
-    margin-top: 1rem;
-    margin-right: 0;
-  }
+  // @media (max-width: 850px) {
+  //   width: 100%;
+  //   margin-top: 1rem;
+  //   margin-right: 0;
+  // }
 `
 
 const FlexContainer = styled.div`
@@ -126,6 +124,7 @@ const FlexContainer = styled.div`
 `
 const ImgContainer = styled.div`
   padding-left: 5rem;
+  padding-right: 2rem;
 `
 
 const IconContainer = styled.div`
