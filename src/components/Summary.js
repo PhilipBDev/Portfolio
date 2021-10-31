@@ -121,7 +121,6 @@ const FlexContainer = styled.div`
   flex-direction: column-reverse;
   align-items: center;
   margin-top: 6rem;
-  margin-bottom: 2rem;
 
   @media (min-width: 768px) {
     flex-direction: row;
@@ -227,7 +226,7 @@ const LinkedIn = styled(Resume)`
 
 const HR = styled.hr`
   @media (max-width: 850px) {
-    margin-top: 4rem;
+    margin-top: 6rem;
     width: 75%;
     border: 4px ridge light-gray;
   }
