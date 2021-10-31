@@ -9,7 +9,7 @@ export default function HTML(props) {
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta
           name="viewport"
-          content="width=device-width, shrink-to-fit=no, initial-scale=1"
+          content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"
         />
         <meta property="og:image" content="https://i.imgur.com/kYShuiB.png" />
         {props.headComponents}
