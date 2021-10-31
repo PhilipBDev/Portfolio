@@ -78,6 +78,8 @@ const Skills = styled.h1`
 const IconContainer = styled.div`
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
   padding: 1rem;
   background-color: #f6f6f6;
   border-radius: 2rem;
@@ -86,8 +88,6 @@ const IconContainer = styled.div`
 const IconStyle = styled.div`
   display: flex;
   flex-direction: column;
-  padding-left: 1rem;
-  padding-right: 1rem;
   font-weight: bold;
   align-items: center;
   transition: transform 0.5s ease;
