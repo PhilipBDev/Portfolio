@@ -13,10 +13,10 @@ html,body {
     font-size: 16px;
     width: 100%;
 
-    // @media (max-width: 850px) {
-    //   font-size: 24px;
+    @media (max-width: 850px) {
+      font-size: 64px;
       
-    // }
+    }
   }
   
 body {
