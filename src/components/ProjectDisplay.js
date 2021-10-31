@@ -76,6 +76,7 @@ const ProjectDisplay = () => {
                   </Link>
                 </GitHub>
               </p>
+              <HR></HR>
             </SingleProjectDiv>
           )
         })}
@@ -181,4 +182,14 @@ const Title = styled.h1`
   font-size: 50px;
   font-weight: bold;
   margin-bottom: 4rem;
+`
+
+const HR = styled.hr`
+  @media (max-width: 850px) {
+    margin-top: 4rem;
+    width: 75%;
+    height: 14px;
+    border: 4px ridge light-gray;
+    border-radius: 8px;
+  }
 `
