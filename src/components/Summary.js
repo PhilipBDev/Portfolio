@@ -146,6 +146,7 @@ const IconContainer = styled.div`
 const IconStyle = styled.div`
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   font-weight: bold;
   align-items: center;
   transition: transform 0.5s ease;
@@ -157,6 +158,7 @@ const IconStyle = styled.div`
   @media (min-width: 768px) {
     padding-left: 0;
     padding-right: 0;
+    flex-wrap: no-wrap;
   }
 `
 const StyleHTML = styled(IconStyle)`
