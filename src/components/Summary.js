@@ -1,15 +1,6 @@
 import React from "react"
 import styled from "styled-components"
 import { StaticImage } from "gatsby-plugin-image"
-import {
-  Html5,
-  Css3,
-  ReactLogo,
-  Nodejs,
-  Javascript,
-  TailwindCss,
-} from "@styled-icons/boxicons-logos"
-import { Mongodb, Gatsby, Nextdotjs } from "@styled-icons/simple-icons"
 
 const Summary = () => {
   return (
@@ -36,46 +27,6 @@ const Summary = () => {
             </Link>
           </LinkedIn>
         </Text>
-        <Skills>Skills</Skills>
-        <IconContainer>
-          <StyleHTML>
-            <Html5 size="70px" title="HTML5" />
-            HTML5
-          </StyleHTML>
-          <StyleCSS>
-            <Css3 size="70px" title="CSS3" />
-            CSS3
-          </StyleCSS>
-          <StyleJavaScript>
-            <Javascript size="70px" title="JavaScript" />
-            JavaScript
-          </StyleJavaScript>
-          <StyleReact>
-            <ReactLogo size="70px" title="React" />
-            React
-          </StyleReact>
-          <StyleNode>
-            <Nodejs size="70px" title="Node" />
-            Node
-          </StyleNode>
-          <StyleMongo>
-            <Mongodb size="70px" title="MongoDB" />
-            MongoDB
-          </StyleMongo>
-          <StyleTailwind>
-            <TailwindCss size="70px" title="Tailwind" />
-            Tailwind
-          </StyleTailwind>
-          <StyleNext>
-            <Nextdotjs size="70px" title="Next.js" />
-            Next.js
-          </StyleNext>
-          {/* <StyleGatsby>
-            <Gatsby size="70px" title="Gatsby" />
-            Gatsby
-          </StyleGatsby> */}
-        </IconContainer>
-        <HR></HR>
       </LeftFlex>
       <RightFlex>
         <ImgContainer>
@@ -134,74 +85,12 @@ const ImgContainer = styled.div`
   }
 `
 
-const IconContainer = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 1rem;
-  background-color: #f6f6f6;
-  border-radius: 2rem;
-`
-
-const IconStyle = styled.div`
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  font-weight: bold;
-  align-items: center;
-  transition: transform 0.5s ease;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  &:hover {
-    transform: scale(1.2);
-  }
-  @media (min-width: 768px) {
-    padding-left: 0;
-    padding-right: 0;
-    flex-wrap: no-wrap;
-  }
-`
-const StyleHTML = styled(IconStyle)`
-  color: #e34f26;
-`
-const StyleCSS = styled(IconStyle)`
-  color: #002561;
-`
-const StyleJavaScript = styled(IconStyle)`
-  color: #f7df1e;
-`
-const StyleReact = styled(IconStyle)`
-  color: #00d8ff;
-`
-const StyleNode = styled(IconStyle)`
-  color: #44883e;
-`
-const StyleMongo = styled(IconStyle)`
-  color: #589636;
-  padding-right: 0.5rem;
-`
-const StyleGatsby = styled(IconStyle)`
-  color: #663399;
-`
-const StyleNext = styled(IconStyle)`
-  color: #000;
-  padding-right: 0.8rem;
-`
-const StyleTailwind = styled(IconStyle)`
-  color: #03a9f4;
-  padding-right: 0.8rem;
-`
-
 const Title = styled.h1`
   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
   font-size: 50px;
   text-align: center;
 `
-const Skills = styled.h1`
-  margin-top: 3rem;
-  text-align: center;
-  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
-`
+
 const Text = styled.p`
   font-size: 24px;
   text-align: center;
@@ -231,12 +120,4 @@ const Resume = styled.button`
 
 const LinkedIn = styled(Resume)`
   margin-left: 1rem;
-`
-
-const HR = styled.hr`
-  @media (max-width: 850px) {
-    margin-top: 6rem;
-    width: 75%;
-    border: 4px ridge light-gray;
-  }
 `
