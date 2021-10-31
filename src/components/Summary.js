@@ -70,10 +70,10 @@ const Summary = () => {
             <Nextdotjs size="70px" title="Next.js" />
             Next.js
           </StyleNext>
-          <StyleGatsby>
+          {/* <StyleGatsby>
             <Gatsby size="70px" title="Gatsby" />
             Gatsby
-          </StyleGatsby>
+          </StyleGatsby> */}
         </IconContainer>
         <HR></HR>
       </LeftFlex>
@@ -121,7 +121,7 @@ const FlexContainer = styled.div`
   flex-direction: column-reverse;
   align-items: center;
   margin-top: 6rem;
-  margin-left: 1.8rem;
+  padding: 1rem;
 
   @media (min-width: 768px) {
     flex-direction: row;
@@ -149,6 +149,8 @@ const IconStyle = styled.div`
   font-weight: bold;
   align-items: center;
   transition: transform 0.5s ease;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   &:hover {
     transform: scale(1.2);
   }
