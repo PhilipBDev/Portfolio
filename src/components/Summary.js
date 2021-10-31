@@ -75,6 +75,7 @@ const Summary = () => {
             Gatsby
           </StyleGatsby>
         </IconContainer>
+        <HR></HR>
       </LeftFlex>
       <RightFlex>
         <ImgContainer>
@@ -120,7 +121,7 @@ const FlexContainer = styled.div`
   flex-direction: column-reverse;
   align-items: center;
   margin-top: 6rem;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 
   @media (min-width: 768px) {
     flex-direction: row;
@@ -222,4 +223,12 @@ const Resume = styled.button`
 
 const LinkedIn = styled(Resume)`
   margin-left: 1rem;
+`
+
+const HR = styled.hr`
+  @media (max-width: 850px) {
+    margin-top: 4rem;
+    width: 75%;
+    border: 4px ridge light-gray;
+  }
 `
