@@ -41,7 +41,7 @@ const Nav = styled.nav`
 
 const Title = styled.h2`
   font-size: 2rem;
-  color: #000;
+  color: #fff;
 `
 
 const NavList = styled.ul`
@@ -60,7 +60,8 @@ const NavItem = styled.li`
 
 const NavLink = styled(AnchorLink)`
   text-decoration: none;
-  color: #000;
+  color: #fff;
+  font-weight: 600;
   display: flex;
   align-items: center;
   font-size: 24px;

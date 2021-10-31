@@ -17,10 +17,13 @@ export default Footer
 
 const Flex = styled.footer`
   display: flex;
-  color: #000;
+  color: #fff;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-image: linear-gradient(#2a9df4, #187bcd);
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
 `
 const FooterText = styled.p`
   font-weight: 600;

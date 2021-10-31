@@ -152,7 +152,7 @@ const ProjectDescription = styled.p`
 
 const Demo = styled.button`
   text-decoration: none;
-  background-color: #fff;
+  background-color: #187bcd;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 1rem;
@@ -168,7 +168,8 @@ const Demo = styled.button`
 
 const Link = styled.a`
   text-decoration: none;
-  color: #000;
+  font-weight: 600;
+  color: #fff;
 `
 
 const GitHub = styled(Demo)`
