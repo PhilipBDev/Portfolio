@@ -112,7 +112,6 @@ const ProjectImage = styled(GatsbyImage)`
 const SingleProjectDiv = styled.div`
   display: flex;
   color: #000;
-  width: 85%;
   height: 85%;
   flex-direction: column;
   align-items: center;
@@ -131,12 +130,10 @@ const ProjectDiv = styled.div`
   display: grid;
   align-content: center;
   justify-items: center;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1rem;
+  grid-template-columns: 1fr;
   max-height: 80%;
-
-  @media (max-width: 850px) {
-    grid-template-columns: 1fr;
+  @media (min-width: 850px) {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 `
 const ProjectTitle = styled.h2`
