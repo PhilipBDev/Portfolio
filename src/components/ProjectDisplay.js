@@ -97,7 +97,7 @@ const ProjectImage = styled(GatsbyImage)`
   margin-bottom: 1rem;
   display: flex;
   flex-direction: column;
-  border: 1px solid #000;
+  border: 1px solid #d3d3d3;
   justify-content: flex-start;
   align-items: center;
   cursor: pointer;

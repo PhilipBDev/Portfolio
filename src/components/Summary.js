@@ -78,8 +78,8 @@ const Summary = () => {
             src="../images/philip-brown.jpg"
             alt="Picture of me"
             style={{
-              height: "600px",
-              width: "500px",
+              height: "450px",
+              width: "400px",
             }}
           />
         </ImgContainer>
@@ -103,7 +103,7 @@ const RightFlex = styled.div`
 const LeftFlex = styled(RightFlex)`
   width: 40%;
   flex-wrap: wrap;
-  margin-right: 10rem;
+  margin-right: 12rem;
 
   @media (max-width: 850px) {
     width: 100%;
