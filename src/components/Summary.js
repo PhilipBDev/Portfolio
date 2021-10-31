@@ -154,6 +154,10 @@ const IconStyle = styled.div`
   &:hover {
     transform: scale(1.2);
   }
+  @media (min-width: 768px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
 `
 const StyleHTML = styled(IconStyle)`
   color: #e34f26;
