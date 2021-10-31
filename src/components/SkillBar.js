@@ -79,10 +79,12 @@ const IconContainer = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-around;
   gap: 1rem;
   padding: 1rem;
   background-color: #f6f6f6;
   border-radius: 2rem;
+  width: 65%;
 `
 
 const IconStyle = styled.div`
