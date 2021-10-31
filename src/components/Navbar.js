@@ -67,6 +67,6 @@ const NavLink = styled(AnchorLink)`
   font-size: 24px;
   font-weight: bold;
   &:hover {
-    color: #fff;
+    color: #000;
   }
 `
