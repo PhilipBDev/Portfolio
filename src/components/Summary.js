@@ -121,6 +121,7 @@ const FlexContainer = styled.div`
   flex-direction: column-reverse;
   align-items: center;
   margin-top: 6rem;
+  margin-left: 2rem;
 
   @media (min-width: 768px) {
     flex-direction: row;

@@ -181,7 +181,7 @@ const Title = styled.h1`
   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
   font-size: 50px;
   font-weight: bold;
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;
 `
 
 const HR = styled.hr`
