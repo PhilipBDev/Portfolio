@@ -127,8 +127,10 @@ const FlexContainer = styled.div`
   }
 `
 const ImgContainer = styled.div`
-  padding-left: 5rem;
-  padding-right: 2rem;
+  @media (min-width: 768px) {
+    padding-left: 5rem;
+    padding-right: 2rem;
+  }
 `
 
 const IconContainer = styled.div`
