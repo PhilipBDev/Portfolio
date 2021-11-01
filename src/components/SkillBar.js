@@ -79,7 +79,8 @@ const IconContainer = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+
+  justify-content: center;
   gap: 1rem;
   padding: 1rem;
   background-color: #f6f6f6;

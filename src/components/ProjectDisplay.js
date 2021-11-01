@@ -118,10 +118,6 @@ const SingleProjectDiv = styled.div`
   justify-content: center;
   margin-bottom: 2em;
   text-align: center;
-
-  @media (max-width: 850px) {
-    text-size-adjust: 300%;
-  }
 `
 const ProjectDiv = styled.div`
   display: grid;
