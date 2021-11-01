@@ -11,6 +11,7 @@ html,body {
     min-height: 100vh;
     padding: 0;
     font-size: 100%;
+    width: 100%;
   }
   
 body {
