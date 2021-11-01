@@ -8,7 +8,7 @@ import {
   Javascript,
   TailwindCss,
 } from "@styled-icons/boxicons-logos"
-import { Mongodb, Gatsby, Nextdotjs } from "@styled-icons/simple-icons"
+import { Mongodb, Nextdotjs } from "@styled-icons/simple-icons"
 
 const SkillBar = () => {
   return (
@@ -47,12 +47,8 @@ const SkillBar = () => {
           <Nextdotjs size="70px" title="Next.js" />
           Next.js
         </StyleNext>
-        {/* <StyleGatsby>
-            <Gatsby size="70px" title="Gatsby" />
-            Gatsby
-          </StyleGatsby> */}
       </IconContainer>
-      <HR></HR>
+      <Hr></Hr>
     </SkillContainer>
   )
 }
@@ -116,16 +112,13 @@ const StyleNode = styled(IconStyle)`
 const StyleMongo = styled(IconStyle)`
   color: #589636;
 `
-const StyleGatsby = styled(IconStyle)`
-  color: #663399;
-`
 const StyleNext = styled(IconStyle)`
   color: #000;
 `
 const StyleTailwind = styled(IconStyle)`
   color: #03a9f4;
 `
-const HR = styled.hr`
+const Hr = styled.hr`
   @media (max-width: 850px) {
     margin-top: 6rem;
     width: 75%;

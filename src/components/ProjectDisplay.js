@@ -76,7 +76,7 @@ const ProjectDisplay = () => {
                   </Link>
                 </GitHub>
               </p>
-              <HR></HR>
+              <Hr></Hr>
             </SingleProjectDiv>
           )
         })}
@@ -174,7 +174,7 @@ const Title = styled.h1`
   margin-bottom: 6rem;
 `
 
-const HR = styled.hr`
+const Hr = styled.hr`
   @media (max-width: 850px) {
     margin-top: 4rem;
     width: 75%;
