@@ -118,13 +118,10 @@ const SingleProjectDiv = styled.div`
   justify-content: center;
   margin-bottom: 2em;
   text-align: center;
-  min-height: 90vh;
 
-  // @media (max-width: 850px) {
-  //   width: 90%;
-  //   height: 90%;
-  //   padding: 1rem;
-  // }
+  @media (max-width: 850px) {
+    text-size-adjust: 300%;
+  }
 `
 const ProjectDiv = styled.div`
   display: grid;

@@ -114,18 +114,15 @@ const StyleNode = styled(IconStyle)`
 `
 const StyleMongo = styled(IconStyle)`
   color: #589636;
-  padding-right: 0.5rem;
 `
 const StyleGatsby = styled(IconStyle)`
   color: #663399;
 `
 const StyleNext = styled(IconStyle)`
   color: #000;
-  padding-right: 0.8rem;
 `
 const StyleTailwind = styled(IconStyle)`
   color: #03a9f4;
-  padding-right: 0.8rem;
 `
 const HR = styled.hr`
   @media (max-width: 850px) {
